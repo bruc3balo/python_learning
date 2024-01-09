@@ -2,7 +2,7 @@ from pathlib import Path
 
 path = Path("emails")
 exists = path.exists()
-print()
+print(f"{path.name} exists: {exists}")
 
 #mkdir
 if not exists:
